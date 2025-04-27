@@ -61,6 +61,7 @@ public class Host {
 				send_information(1, "Winner");
 				send_information(2, "Loser");
 				end_game(0);
+				break;
 			}
 			else {
 				send_information(1, "Neither");
@@ -100,6 +101,7 @@ public class Host {
 				send_information(1, "Loser");
 				send_information(2, "Winner");
 				end_game(0);
+				break;
 			}
 			else {
 				send_information(1, "Neither");
